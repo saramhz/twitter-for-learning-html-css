@@ -1,0 +1,110 @@
+body {
+    background: #e6ecf0;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    /* height: 30px; */
+    /* border: 1px solid #999; */
+}
+.clear{clear: both;}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    display: inline-block;
+}
+
+.fleft{float: left;}
+.fright{float: right;}
+
+.header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    height: 46px;
+    position: relative;
+    width: 100%;
+    background: white;
+}
+
+.header .menu {
+    float: left;
+}
+
+.header .search {
+    float: right;
+}
+
+.header .search li.input {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.icon {
+    margin-left: 37%;
+    color: blue;
+    font-size: 30px;
+    margin-top: 7px;
+    position: absolute;
+    display: block;
+}
+
+.header .search li {
+    height: 46px;
+    float: left;
+}
+
+.header .avatar a {
+    padding-top: 6px;
+    display: block;
+}
+
+.header .avatar img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.header .menu li {}
+
+.header .menu li a {
+    padding: 12px;
+    display: block;
+}
+
+.header .menu li:hover a {
+    border-bottom: 3px solid;
+    margin-bottom: -3px;
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* start content */
+.content{
+
+}
+
+.content .tweets{
+    width: 560px;
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+
+}
+
+.content .sidebar{
+    width: 290px;
+    background-color: white;
+}
+.content .container div{
+    /* border: 1px solid; */
+    height: 20px;
+    display: block;
+}
+/* end content */

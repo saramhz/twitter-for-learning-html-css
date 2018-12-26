@@ -109,6 +109,48 @@ ul{
     background-color: white;
 }
 
+.sidebarleft  img {
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    width: 290px;
+    
+}
+
+.sidebarleft .cover li {
+    list-style: none;
+    display: inline-block;
+     
+}
+
+.cover li a {
+     color: #657786;
+    margin-left: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 12px; 
+    
+}
+.cover li a:hover {
+    color: #1DA1F2;
+}
+
+
+.number li {
+    display: inline-block
+        
+}
+.sidebarleft .number li a{
+    color: #1DA1F2;
+    margin-left: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 16px; 
+    
+}
+
 .content .sidebarcenter {
     float: left;
     width: 560px;

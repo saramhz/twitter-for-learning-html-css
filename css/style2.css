@@ -8,12 +8,23 @@ body {
     width: 1190px;
     margin: 0 auto;
 }
+
+/* Navigation */
+
 .header {
     background-color: white;
     border-bottom: 1px solid;
     height: 46px;
     width: 100%;
     /*position: relative;*/
+}
+
+.header .nav {
+    float: left;
+}
+.header .search {
+    float: right;
+      display: flex;
 }
 ul{
     padding: 0;
@@ -34,4 +45,79 @@ ul{
     padding: 12px;
     display: block;
     
+    
 }
+
+.nav li a:hover {
+    color: #1DA1F2;
+   
+}
+
+.header .search input {
+    border: 1px solid #14171a;
+    border-radius: 25px;
+    margin: 8px;
+    padding: 5px;
+    
+}
+
+.search img {
+    height: 32px;
+    width: 32px auto;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+
+.search .button {
+   
+    border:1px solid #1DA1F2;
+    background: #1DA1F2;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    font-size: 14px;
+    margin: 8px 0 8px 3px
+}
+
+
+.header .icon {
+    color:#1DA1F2;
+    margin-left: 40%;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 8px;
+    
+    
+}
+
+/* Content */
+    
+.clear {
+    clear: both;
+}
+
+.content div {
+    display: block;
+    
+}
+
+.content .sidebarleft {
+    float: left;
+    width: 290px;
+    background-color: white;
+}
+
+.content .sidebarcenter {
+    float: left;
+    width: 560px;
+    background-color: white;
+    margin-left: 25px;
+}
+.content .sidebarright {
+    float: right;
+    width: 290px;
+    background-color: white;
+            
+}
+

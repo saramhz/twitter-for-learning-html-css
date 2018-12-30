@@ -98,8 +98,117 @@ ul{
     clear: both;
 }
 
-.content div {
+
+/* sidebar left */
+
+.box {
+    background-color: white;
+    padding: 15px;
     display: block;
+    position: relative;
+}
+
+.sidebar-left {
+    float: left;
+    width: 290px;
+    margin: 10px;
+}
+
+
+.profile .cover a{
+    background-image: url("../img/cover.jpg");
+    height:95px;
+    background-size: 288px 95px;
+    display: block;
+    
+}
+
+.box.profile {
+    padding: 0;
+}
+
+.side-avatar .avatar {
+    display: block;
+    position: absolute;
+    top: -30px
+    
+    
+    
+}
+.side-avatar .avatar  img  {
+    border-radius: 50%;
+    width: 72px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    box-shadow: 0 0 5px 2px #777;
+}
+    
+.username {
+    display: block;
+    margin-left: 90px;
+    margin-top: -10px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    
+}   
+.farsi {
+    
+    font-size:18px;
+    color:#14171a;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.eng  {
+   
+    font-size: 12px;
+    text-decoration: none;
+    color: #66757f;
+    
+}
+
+.username .farsi:hover {
+    text-decoration: underline;
+}
+.username .eng:hover {
+    text-decoration: underline;
+}
+
+.profile-data li{
+    list-style: none;
+    display: inline-block;
+    
+        
+}
+.profile li a {
+    display: block;
+    margin: 10px 3px 0 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.profile .data-value {
+    margin-top: 3px;
+    color: #1DA1F2;
+    font-size: 18px;
+    font-weight: bold;
+}
+.profile .data-label {
+    color:#657786;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.data-label:hover {
+    color:#1DA1F2;
+}
+
+
+
+
+/*.content div {
+    display: block;
+    background-color: white;
     
 }
 
@@ -162,5 +271,5 @@ ul{
     width: 290px;
     background-color: white;
             
-}
+}*/
 

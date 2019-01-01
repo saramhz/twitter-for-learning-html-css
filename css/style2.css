@@ -19,8 +19,6 @@ body {
     /*position: relative;*/
 }
 
-
-
 .header .nav {
     float: left;
 }
@@ -39,24 +37,22 @@ body {
     overflow: hidden;
 }
 
-/*
-.search input:active{ 
+
+.search input: {
     background-color: white;
     border: 2px solid #1da1f2;
     overflow: hidden;
 }
-*/
 
 
-/*
-img {
+/* img {
   width: 20px;
   height: 20px;
   display: block;
   position: absolute;
   top: 5px;
   left: 155px;
-}
+} 
 
 button {
   height: 20px;
@@ -67,8 +63,8 @@ button {
   background: transparent;
   border: none;
   cursor: pointer;
-}
-*/
+} */
+
 
 ul {
     padding: 0;
@@ -119,9 +115,9 @@ ul {
     margin: 8px 0 8px 3px;
     vertical-align: text-bottom;
     padding: 6px;
-    cursor: pointer; 
+    cursor: pointer;
 }
- 
+
 .search .button:hover {
     background-color: blue;
 }
@@ -255,43 +251,53 @@ ul {
 .trend {
     margin-top: 10px;
     padding: 15px;
-    font-family: "Segoe UI",Arial,sans-serif
+    font-family: "Segoe UI", Arial, sans-serif
 }
-.trend-change{
+
+.trend-change {
     color: #1c94e0;
     cursor: pointer;
     font-size: 12px;
     text-decoration: none;
-    font-family: "Segoe UI",Arial,sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
 
 }
-.trend-change:hover{
- text-decoration: underline;
+
+.trend-change:hover {
+    text-decoration: underline;
 }
-.trend-topic  {
-    color:#1DA1F2;
+
+.trend-item li {
+    list-style: none;
+
+}
+
+.trend-item a {
     text-decoration: none;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    cursor: pointer;
-    font-weight: bold;
-}
-.trend-topic:hover {
-    text-decoration: underline;
-    
-}
-.trend-list {
-    color: #657786;
-    font-size: 14px;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
-.trend-list a{
-        color: #1c94e0;
-        font-weight: bold;
-        font-size: 16px;
-        text-decoration: none;
-        
+.trend-item .trend-topic {
+    color: #1DA1F2;
+    font-weight: bold;
+    font-size: 14px;
+
 }
-.trend-list a:hover{
+
+.trend-item a:hover span {
     text-decoration: underline;
+}
+
+.trend-item .first-trend {
+    color: #14171a;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 7px;
+
+}
+
+.trend-text {
+    color: #657786;
+    font-size: 12px;
+    margin-bottom: 7px;
 }

@@ -329,7 +329,7 @@ ul {
     height: 58px;
     width: 550px;
     background-color: #E8F5FD;
-
+    position: relative;
 }
 
 .img-top-timeline {
@@ -341,6 +341,15 @@ ul {
     border-radius: 50%;
 }
 
+
+
+.tweet-send .fa {
+    position:absolute;
+    float:right;
+    margin:20px;
+    padding-left:434px;
+    color: #1DA1F2;
+}
 .type-tweet {
    position: absolute;
     background-color: white;
@@ -364,8 +373,90 @@ input:focus::placeholder {
     color: #777;
 }
 
+.new{
+    height: 42px;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid rgb(230, 236, 240);
+    border-top: 1px solid rgb(230, 236, 240);
 
-/* Tweets */
+}
+
+.new-tweets{
+    color: #1DA1F2;
+    text-align: center;
+    padding: 11px 1px;
+    font-size: 14px;
+    border: none;
+    background-color: #f5f8fa;
+    cursor: pointer;
+    margin-left: 216px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+ .timeline{
+    background-color: #fff;
+    font-family: "Segoe UI",Arial,sans-serif;
+    position: relative;
+    
+    
+}
+ .timeline ul{
+    list-style: none;
+    
+} 
+
+ .timeline .profile img{
+    width: 48px;
+    border-radius: 50%;
+    margin-top: 9px;
+    float: left;
+    margin-left: 10px;
+ }
+ 
+ .timeline .profile a{
+     text-decoration: none;
+     cursor: pointer;
+     margin-left: 10px;
+     margin-top: 6px;
+     position: absolute;
+ }
+
+ .timeline .profile a strong{
+    color: #14171a;
+    font-size: 14px;
+ }
+ .timeline .profile a strong:hover{
+     color: #1DA1F2;
+     text-decoration: underline;
+ }
+
+ .timeline .profile a span{
+    color: #657786;
+    font-size: 14px;
+ }
+ .timeline .profile a small{
+    color: #657786;
+    font-size: 14px;
+ }
+ .timeline .profile a small:hover{
+     color: #1DA1F2;
+     text-decoration: underline;
+ }
+ .timeline .profile .fa{
+    float: right;
+    margin-top: 9px;
+    margin-right: 9px;
+    color: #657786;
+    font-size: 16px;
+ }
+
+ .timeline .text {
+     position: absolute;
+     text-align: right;
+     
+ }
+
+/* Tweets
 
 .see-tweets {
     
@@ -485,7 +576,7 @@ input:focus::placeholder {
     color: #1DA1F2;
     text-decoration: underline;
 }
-.first-tweet .text-tweets {
+ .text-tweets {
    
     float: right;
     font-weight: bold;
@@ -496,12 +587,12 @@ input:focus::placeholder {
     white-space: pre-wrap;
     margin-right: 15px;
 }
-.first-tweet .text-tweets p{
+ .text-tweets p{
     margin-top: -64px;
 }
 
 
-.first-tweet .translate-tweet a{
+ .translate-tweet a{
     text-decoration: none;
     color: #657786;
     font-size: 12px;
@@ -560,7 +651,27 @@ input:focus::placeholder {
     margin-right: 8px;
     float: left;
 }
+
+.tweet-img {
+    width: 490px;
+    margin-left: 45px;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+
+.second-tweet {
+    border-bottom: 1px solid #89949b;
+}
+
 /* sidebar right */
+
+
+
+
+
+
+
+
 .sidebar-right{
     float: right;
     
@@ -738,4 +849,4 @@ input:focus::placeholder {
 
  .footer-adv:hover a{
      text-decoration: underline;
- }
+ } */

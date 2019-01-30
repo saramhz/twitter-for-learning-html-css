@@ -396,14 +396,14 @@ input:focus::placeholder {
  .timeline{
     background-color: #fff;
     font-family: "Segoe UI",Arial,sans-serif;
-    position: relative;
-    
     
 }
- .timeline ul{
+.timeline ul{
+    border-bottom: 1px solid #bec4c9;
     list-style: none;
-    
-} 
+}
+
+  
 
  .timeline .profile img{
     width: 48px;
@@ -411,6 +411,7 @@ input:focus::placeholder {
     margin-top: 9px;
     float: left;
     margin-left: 10px;
+    cursor: pointer;
  }
  
  .timeline .profile a{
@@ -451,219 +452,88 @@ input:focus::placeholder {
  }
 
  .timeline .text {
-     position: absolute;
-     text-align: right;
-     
- }
-
-/* Tweets
-
-.see-tweets {
-    
-    width: 550PX;
-    padding: 0px;
-    float: left;
-   
-
-    
-}
+     display: inline-block;
+     width: 480px;
+     text-align:right;
+     cursor: pointer;
+     font-size: 14px;
+     }
 
 
-.see-tweets .new-tweets  {
-    color:#1DA1F2;
-    font-size: 14px;
-    font-weight: normal;
-    font-family:"Segoe UI",Arial,sans-serif;
-    text-align: center;
-    width: 550px;
+.translate button{
+    border: none;
+    background-color: #fff;
+    color: #657786;
+    font-size: 12px;
+    font-family: inherit;
+    margin-left: 50px;
     cursor: pointer;
-    border-bottom: 1px solid #e6ecf0;
-    border-top: 1px solid #e6ecf0;
-    border-right: 0px;
-    border-left: 0px;
-    height: 42px;
-    background-color: #f5f8fa;
+}
+.translate button:hover{
+    color: #1DA1F2;
+    text-decoration: underline; 
+}
+.translate button:hover .fa{
+ color: #657786;
+ text-decoration: none;
+}
+.timeline .footer ul{
+padding-left: 56px;
+font-size: 12px;
+font-weight: bold;
+padding-top: 15px;
+padding-bottom: 8px;
+cursor: pointer;
+}
+
+
+.timeline .footer ul li{
+    display: inline-block;
+    color: #657786;
+    margin-right: 46px;
     
 }
- 
 
- .new-tweets:hover {
-    background-color: #e6ecf0;
-    border: 1px solid #ccd6dd;
- }
-
-
- .tweets {
-     height: 300px;
- }
-
- .tweets:hover {
-     background-color: #f5f8fa;
- }
-
- .tweets-box li{
-     list-style-type: none;
-     padding-left: 0px;
-     
- }
- .first-tweet{
-     height: 370px;
-     border-bottom: 1px solid #89949b;
-     
-    
-    
- }
- 
- .first-tweet .retweeted {
-     color:#657786;
-     font-size: 12px;
-     margin-top: 5px;
-     margin-bottom: 5px;
-     margin-left: 32px;
-     font-family: "Segoe UI",Arial,sans-serif;
-
- }
-
- .retweeted a {
-     color: #657786;
-     text-decoration: none;
-     font-weight: normal;
-
- }
-
-.retweeted .fa {
+.timeline .footer .fa {
     font-size: 16px;
 }
 
-.stream-item-header img {
-    border-radius: 50px;
-    width: 48px;
-    border-radius: 50px;
-    height: 47px;
-    float: left;
-    margin-top: 3px;
-    margin-left: 15px;
+.timeline .footer .facomment:hover{
+ color: #1DA1F2
+}
+.timeline .footer .faretweet:hover{
+    color: #17bf63;
+}
+.timeline .footer .faheart:hover{
+    color: #e0245e;
 }
 
-.stream-item-header a{
-    cursor: pointer;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: "Segoe UI",Arial,sans-serif;
-    font-size: 13px;
-    margin-left: 12px;
-}
-
-.stream-item-header .name {
-    color:#14171a;
-}
-.stream-item-header .name:hover {
+.timeline .footer .faenvelope:hover{
     color: #1DA1F2;
-    text-decoration: underline;
 }
 
-.stream-item-header .id {
-    color: #657786;
-    font-weight: normal;
-    margin-left: 0px;
+.retweet-by{
+color: #657786;
+font-size: 12px;
+text-decoration: none;
+margin-left: 46px;
 }
-.stream-item-header .date{
-    color: #657786;
-    font-weight: normal;
-    margin-left: 0px;
+.img-tweet img{
+width: 470px;
+margin-left: 58px;
+margin-top: 15px;
+border-radius: 13px;
+height: 540px;
 }
-.stream-item-header .date:hover{
-    color: #1DA1F2;
-    text-decoration: underline;
-}
- .text-tweets {
-   
-    float: right;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: "Segoe UI",Arial,sans-serif;
-    text-align: right;
-    width: 506px;
-    white-space: pre-wrap;
-    margin-right: 15px;
-}
- .text-tweets p{
-    margin-top: -64px;
-}
-
-
- .translate-tweet a{
-    text-decoration: none;
-    color: #657786;
-    font-size: 12px;
-    font-family: "Segoe UI",Arial,sans-serif;
+.img-tweet-second{
 
 }
 
-.translate-tweet {
-    float: left;
-    padding-top: -9px;
-    padding-left: 60px;
-    font-size: 12px;
-}
-
-.translate-tweet:hover a{
-    color: #1DA1F2;
-    text-decoration: underline;
-    
-}
 
 
-.translate-tweet .fa {
-    color: #66757f;
-    margin-left: -100px;
-    font-size: 12px;
-}
 
-.tweets-box .footer-box {
-    float: left;
-    width: 100%;
-    padding-top: 16px;
-    padding-left: 45px;
-}
 
-.tweets-box .footer-box a{
-    display: inline-block;
-    color: #657786;
-    margin-right: 47px;
-    font-weight: bold;
-    font-size: 14px;
-    text-decoration: none;
-}
 
-.footer-box .comment:hover{
-    color: #1DA1F2;
-} 
-
-.footer-box .retweet:hover {
-    color:#17bf63;
-}
-.footer-box .like:hover {
-    color:#e0245e;
-}
-
-.tweets-box .footer-box .fa{
-    margin-right: 8px;
-    float: left;
-}
-
-.tweet-img {
-    width: 490px;
-    margin-left: 45px;
-    margin-top: 15px;
-    border-radius: 9px;
-}
-
-.second-tweet {
-    border-bottom: 1px solid #89949b;
-}
-
-/* sidebar right */
 
 
 
